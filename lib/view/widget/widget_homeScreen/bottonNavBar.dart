@@ -14,7 +14,7 @@ class CustomBottomNavBar extends GetView<HomeScreenController> {
   Widget build(BuildContext context) {
     return BottomAppBar(
       color: AppColor.blue,
-      height: 60,
+      height: 65,
       shape: const CircularNotchedRectangle(),
       notchMargin: 10,
       child: Container(
